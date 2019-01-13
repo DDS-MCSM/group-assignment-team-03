@@ -11,7 +11,7 @@ de <- list()
 
 write.csv(df, "Desktop/legitimate_links.csv")
 
-#names(df)<-c("caca", "tua", "perra", "polla")
+#names(df)<-c("caca", "tua", "gosa", "pusa")
 
 
 for(i in datos){
