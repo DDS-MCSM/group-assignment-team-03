@@ -4,7 +4,7 @@ Group Assignment base repository for the Data Driven Security subject of the [Cy
 
 ## Project Title
 
-Que porcentaje de acierto en phising se puede conseguir al analizar una url?
+¿Qué porcentaje de acierto en phising se puede conseguir al analizar una url?
 
 ### Requirements
 
@@ -22,7 +22,7 @@ Extraer los datos de las páginas detectadas como phishing y crear un análisis 
 
 ### Goals
 
-Hacer un análisis funcional sobre el phishing (como detectarlo, origen de los servidores, número de páginas, etc).
+Hacer un análisis funcional sobre el phishing (como detectarlo, origen de los servidores, etc).
 
 ### Data acquisition
 
@@ -56,12 +56,12 @@ Estos campos se han copiado en otro fichero para la comparación a la hora de ap
 
 - Análisis de datos phising obtenidos del dataset y transformados a otro fichero csv para obtener los campos requeridos.
 - Análisis de datos de webs legítimas y transformados a otro fichero csv para obtener los campos requeridos.
-- Comparar ambos a través del algoritmo "Naive Bayes" para obtener un porcentaje ajustado de análisis de phising.  
+- Comparar ambos a través del algoritmo "Naive Bayes + PCA" para obtener un porcentaje ajustado de análisis de phising.  
 
 
 ### Results / Conclusions.
 
-Utilizando el algoritmo de "Naive Bayes" junto con el "Principal Component Analysis (PCA)" para reducir la dimensionalidad de los datos, hemos obtenido unos resultados del 75% de exactitud. 
+Utilizando el algoritmo de "Naive Bayes" junto con el "Principal Component Analysis (PCA)" para reducir la dimensionalidad de los datos, al hacer una comparativa del dataset de phishing junto con el de webs legítimas extraído de "Alexa", hemos obtenido unos resultados del 75% de exactitud. 
 Es un porcentaje bastante alto de exactitud, mejor del que habíamos pensado, pero si hubieramos obtenido herramientas más avanzadas ese porcentaje lo hubieramos podido aumentar.
 
 Para un siguiente "aproach", podríamos mejorar ese porcentaje de exactitud y también aplicarlo para hacer un análisis de países, para de esta manera, poder determinar donde hay más enfoque de phising. 
